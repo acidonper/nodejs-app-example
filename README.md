@@ -41,6 +41,10 @@ It is important to bear in mind that testing in this repository is implemented b
 "test": "mocha --timeout 10000 --recursive --exit"
 ```
 
+# Deployment in OpenShift
+
+Please, visit [Deploy NodeJS App Example in Openshift ](./.openshift/README.md) for more information about App deployment in Openshift.
+
 # License
 
 BSD

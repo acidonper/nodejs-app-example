@@ -26,7 +26,7 @@ Basically, the procedure included in this document tries to perform the followin
 In order to deploy this NodeJS project in OpenShift with all dependencies included, it is necessary execute the following commands in a bash console:
 
 ```
-$ oc login -u user -p password https://openshift-console.example.com
+$ oc login -u user -p password https://console-openshift-console.example.com
 $ oc project projectexample01
 $ vi openshift-nodejs-app-example.sh
 $ sh openshift-nodejs-app-example.sh projectexample01

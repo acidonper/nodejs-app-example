@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-app-example",
+  "version": "1.0.0",
+  "description": "NodeJS App Example",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "mocha --recursive --exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acidonper/nodejs-app-example.git"
+  },
+  "author": "Asier Cidon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acidonper/nodejs-app-example/issues"
+  },
+  "homepage": "https://github.com/acidonper/nodejs-app-example#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^7.1.1"
+  }
+}
